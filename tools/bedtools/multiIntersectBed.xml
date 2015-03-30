@@ -49,7 +49,7 @@
                 </repeat>
             </when>
         </conditional>
-        <expand macro="genome" />
+        <expand macro="genome_optional" />
         <param name="cluster" type="boolean" checked="false" truevalue="-cluster" falsevalue="" 
             label="Invoke Ryan Layers's clustering algorithm"
             help="(-cluster)" />

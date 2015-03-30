@@ -53,6 +53,10 @@
         <param format="tabular" name="genome" type="data" label="Genome file" />
         <!--TODO: make use of: ${chromInfo} -->
     </xml>
+    <xml name="genome_optional">
+        <param format="tabular" name="genome" optional="True" type="data" label="Genome file" />
+        <!--TODO: make use of: ${chromInfo} -->
+    </xml>
     <xml name="addition">
         <conditional name="addition">
             <param name="addition_select" type="select" label="Choose what you want to do">
