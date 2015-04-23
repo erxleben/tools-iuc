@@ -128,6 +128,10 @@ stringtie "$input_bam"
     </tests>
     <help>
 <![CDATA[
+**What it does**
+
+StringTie assembles and quantitate short sequences into full-length transcripts representing multiple splice variants for each gene locus. Its input can include not only the alignments of raw reads used by other transcript assemblers, but also alignments longer sequences that have been assembled from those reads.
+
 StringTie v1.0.1 usage:
  stringtie <input.bam> [-G <guide_gff>] [-l <label>] [-o <out_gtf>] [-p <cpus>]
   [-v] [-a <min_anchor_len>] [-m <min_tlen>] [-j <min_anchor_cov>] [-n sens]
